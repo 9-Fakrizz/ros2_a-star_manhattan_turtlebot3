@@ -1,0 +1,3 @@
+[console_scripts]
+main_node = robot401_pkg.main:main
+

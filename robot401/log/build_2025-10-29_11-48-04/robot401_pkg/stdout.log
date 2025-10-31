@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot401_pkg.egg-info
+writing robot401_pkg.egg-info/PKG-INFO
+writing dependency_links to robot401_pkg.egg-info/dependency_links.txt
+writing entry points to robot401_pkg.egg-info/entry_points.txt
+writing requirements to robot401_pkg.egg-info/requires.txt
+writing top-level names to robot401_pkg.egg-info/top_level.txt
+writing manifest file 'robot401_pkg.egg-info/SOURCES.txt'
+reading manifest file 'robot401_pkg.egg-info/SOURCES.txt'
+writing manifest file 'robot401_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tony/robot401/install/robot401_pkg/lib/python3.10/site-packages/robot401-pkg.egg-link (link to .)
+Installing simple_node script to /home/tony/robot401/install/robot401_pkg/lib/robot401_pkg
+
+Installed /home/tony/robot401/build/robot401_pkg
+running symlink_data
+creating /home/tony/robot401/install/robot401_pkg/share/ament_index
+creating /home/tony/robot401/install/robot401_pkg/share/ament_index/resource_index
+creating /home/tony/robot401/install/robot401_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/tony/robot401/build/robot401_pkg/resource/robot401_pkg -> /home/tony/robot401/install/robot401_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/tony/robot401/build/robot401_pkg/package.xml -> /home/tony/robot401/install/robot401_pkg/share/robot401_pkg

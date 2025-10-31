@@ -1,0 +1,17 @@
+[1.125s] Invoking command in '/home/tony/robot401/build/robot401_pkg': PYTHONPATH=/home/tony/robot401/build/robot401_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tony/robot401/install/robot401_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tony/robot401/build/robot401_pkg/build --no-deps symlink_data
+[1.583s] running develop
+[1.794s] running egg_info
+[1.794s] writing robot401_pkg.egg-info/PKG-INFO
+[1.795s] writing dependency_links to robot401_pkg.egg-info/dependency_links.txt
+[1.795s] writing entry points to robot401_pkg.egg-info/entry_points.txt
+[1.795s] writing requirements to robot401_pkg.egg-info/requires.txt
+[1.795s] writing top-level names to robot401_pkg.egg-info/top_level.txt
+[1.797s] reading manifest file 'robot401_pkg.egg-info/SOURCES.txt'
+[1.798s] writing manifest file 'robot401_pkg.egg-info/SOURCES.txt'
+[1.801s] running build_ext
+[1.802s] Creating /home/tony/robot401/install/robot401_pkg/lib/python3.10/site-packages/robot401-pkg.egg-link (link to .)
+[1.803s] Installing main_node script to /home/tony/robot401/install/robot401_pkg/lib/robot401_pkg
+[1.803s] 
+[1.803s] Installed /home/tony/robot401/build/robot401_pkg
+[1.803s] running symlink_data
+[1.831s] Invoked command in '/home/tony/robot401/build/robot401_pkg' returned '0': PYTHONPATH=/home/tony/robot401/build/robot401_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tony/robot401/install/robot401_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tony/robot401/build/robot401_pkg/build --no-deps symlink_data
