@@ -1,4 +1,3 @@
-````markdown
 # 🐢 ROS 2 A* Pathfinding for TurtleBot3 (Manhattan Heuristic)
 
 ## 🌟 Project Overview
@@ -101,37 +100,6 @@ ros2 run your_pkg_name move_to_target
 A **Matplotlib window** will pop up, showing the real-time grid map and the robot's movement.
 
 -----
-
-## 🔍 Code Flowchart and Explanation
-
-The `move_to_target.py` node operates through three main ROS 2 subscription/callback loops and the A\* algorithm itself.
-
-### Main Code Flowchart
-
-```mermaid
-graph TD
-    A[Start Node move_to_target] --> B(rclpy.spin_once)
-    B --> C{Odometry Callback /odom}
-    B --> D{LiDAR Callback /scan}
-    C --> E(Update Robot Pos/Yaw)
-    C --> F(Map Pos to Grid Cell)
-    C --> G{Initial Path Calculated?}
-    G -- No --> H[Run A* Pathfinding]
-    G -- Yes --> I{Path Blocked/Empty?}
-    I -- Yes --> J[Run A* Pathfinding (Replan)]
-    I -- No --> K[Follow Next Path Cell]
-    H --> L(Publish cmd_vel)
-    J --> L
-    K --> L
-    D --> M(Process Range Data)
-    D --> N(Convert Local Obstacle to Global Grid Cell)
-    D --> O(Update persistent self.obstacles set)
-    D --> P{New Obstacle Detected?}
-    P -- Yes --> Q[Clear self.path (Force Replanning in Odom)]
-    P -- No --> R[Continue]
-
-```
-
 ### Key Function Descriptions
 
 | Function | ROS Topic/Trigger | Description |
@@ -142,4 +110,4 @@ graph TD
 | `update_plot(frame)` | `FuncAnimation` (GUI Loop) | **Visualization.** Updates the Matplotlib plots with the robot's current position, the detected obstacle cells, the calculated A\* path, and the raw LiDAR points. |
 
 ```
-```
+
